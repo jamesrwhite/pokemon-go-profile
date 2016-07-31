@@ -24,15 +24,16 @@ exports.getData = (username, password) => {
 
 function format(response) {
     const player = response[0].player_data,
-          badges = response[1].badges;
+          badges = response[1].badges,
+          inventory = response[2].inventory_delta.inventory_items;
 
     return {
         username: player.username,
-        team: parseTeam(player.team),
         joined: new Date(parseInt(player.creation_timestamp_ms, 10)).toString(),
-        badges: badges,
-        _debug: response
-    }
+        team: parseTeam(player.team),
+        level: getPlayerStats(inventory).level,
+        badges: badges
+    };
 }
 
 function parseTeam(id) {
@@ -52,4 +53,12 @@ function parseTeam(id) {
     };
 
     return teams[id];
+}
+
+function getPlayerStats(inventory) {
+    const stats = inventory.filter(item => {
+        return item.inventory_item_data.player_stats !== null;
+    });
+
+    return stats[0].inventory_item_data.player_stats;
 }

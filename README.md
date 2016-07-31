@@ -3,7 +3,7 @@
 A very simple, and very much wip, web ui for your Pokemon Go profile that pulls data from
 the games private api.
 
-!["Screenshot"](https://d3vv6lp55qjaqc.cloudfront.net/items/1S0t171X2U0R1N321Y1i/Image%202016-07-31%20at%2010.58.01%20pm.png?v=75eb678d)
+!["Screenshot"](https://d3vv6lp55qjaqc.cloudfront.net/items/0E3Z0c2c1W101R0Z3B3q/Image%202016-07-31%20at%2011.35.02%20pm.png?v=8e0fb5d9)
 
 ## Installation
 
