@@ -7,7 +7,7 @@ the games private api.
 
 ## Installation
 
-	$ git clone https://github.com/jamesrwhite/pokemon-go-profile.git`
+	$ git clone https://github.com/jamesrwhite/pokemon-go-profile.git
 	$ npm install
 
 ## Running
@@ -25,7 +25,7 @@ the games private api.
 - [ ] Pokemon List
 - [ ] Item List
 - [ ] Refresh data periodically
-- [ ] Avatar (not sure if this even possible, the game uses what I presume are Unity models)
+- [ ] Avatar (not sure if this is even possible, the game uses what I presume are Unity models so it will be tricky..)
 - [ ] View other players data (no api to do this currently)
 
 
