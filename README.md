@@ -3,6 +3,8 @@
 A very simple, and very much wip, web ui for your Pokemon Go profile that pulls data from
 the games private api.
 
+!["Screenshot"](https://d3vv6lp55qjaqc.cloudfront.net/items/1S0t171X2U0R1N321Y1i/Image%202016-07-31%20at%2010.58.01%20pm.png?v=75eb678d)
+
 ## Installation
 
 	$ git clone https://github.com/jamesrwhite/pokemon-go-profile.git`
