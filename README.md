@@ -20,10 +20,12 @@ the games private api.
 - [ ] Pokemon Trainer Club Login
 - [x] Fetch player data
 - [x] Team theming
+- [ ] Level progression
 - [ ] Pokemon Count
 - [ ] Item Count
 - [ ] Pokemon List
 - [ ] Item List
+- [ ] Moar stats
 - [ ] Refresh data periodically
 - [ ] Avatar (not sure if this is even possible, the game uses what I presume are Unity models so it will be tricky..)
 - [ ] View other players data (no api to do this currently)
