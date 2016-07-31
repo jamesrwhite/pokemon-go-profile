@@ -1,0 +1,109 @@
+// Team Colours
+$instinct: #F6CA3C;
+$instinct-dark: #C0B732;
+$instinct-bg: darken($instinct, 45%);
+$mystic: #1E5DF3;
+$mystic-dark: #122F5A;
+$mystic-bg: darken($mystic, 45%);
+$valor: #D7292A;
+$valor-dark: #50170F;
+$valor-bg: darken($valor, 45%);
+
+$grey: #aaa;
+$dark-grey: #666;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: relative;
+
+    & > .logo {
+        position: absolute;
+        top: 0;
+        left:   0;
+    }
+
+    &.instinct {
+        background: $instinct-bg;
+    }
+
+    &.mystic {
+        background: $mystic-bg;
+    }
+
+    &.valor {
+        background: $valor-bg;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.profile {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2em;
+
+    h1 {
+        color: $grey;
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+
+    .joined {
+        color: $dark-grey;
+    }
+}
+
+// Team specific styles
+.instinct {
+    .logo path {
+        fill: $instinct-dark;
+    }
+
+    .profile h2 {
+        color: $instinct;
+    }
+}
+
+.mystic {
+    .logo path {
+        fill: $mystic-dark;
+    }
+
+    .profile h2 {
+        color: $mystic;
+    }
+}
+
+.valor {
+    .logo path {
+        fill: $valor-dark;
+    }
+
+    .profile h2 {
+        color: $valor;
+    }
+}
