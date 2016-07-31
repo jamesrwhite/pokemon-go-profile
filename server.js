@@ -18,7 +18,7 @@ const USER = process.env.USER,
 log.level = LOG_LEVEL;
 
 // Load the template
-const template = fs.readFileSync('./profile.mst').toString();
+const template = fs.readFileSync('./profile.mustache').toString();
 const logos = {
     instinct: fs.readFileSync('./assets/img/instinct.svg').toString(),
     mystic: fs.readFileSync('./assets/img/mystic.svg').toString(),
