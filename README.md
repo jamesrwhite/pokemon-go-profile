@@ -1,6 +1,6 @@
-# Pokemon Go Profile
+# Pokémon Go Profile
 
-A very simple, and very much wip, web ui for your Pokemon Go profile that pulls data from
+A very simple, and very much wip, web ui for your Pokémon profile that pulls data from
 the games private api.
 
 !["Screenshot"](https://d3vv6lp55qjaqc.cloudfront.net/items/0E3Z0c2c1W101R0Z3B3q/Image%202016-07-31%20at%2011.35.02%20pm.png?v=8e0fb5d9)
@@ -17,13 +17,13 @@ the games private api.
 ## TODO
 
 - [x] Google Login
-- [ ] Pokemon Trainer Club Login
+- [ ] Pokémon Trainer Club Login
 - [x] Fetch player data
 - [x] Team theming
 - [ ] Level progression
-- [ ] Pokemon Count
+- [ ] Pokémon Count
 - [ ] Item Count
-- [ ] Pokemon List
+- [ ] Pokémon List
 - [ ] Item List
 - [ ] Moar stats
 - [ ] Refresh data periodically
